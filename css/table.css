@@ -1,0 +1,39 @@
+* {
+    padding: 10;
+    margin: 0;
+    box-sizing: border-box;
+}body{
+  background: #ffe3cc;
+  min-height: 100vh;
+  display: flow;
+  align-items: center;
+  justify-content: center;
+}
+h2 {
+    font-size: 40px;
+}
+table {
+    letter-spacing: 1.2px;
+    border-collapse: collapse;          /*content written color*/
+}
+td,th {
+    border-collapse: collapse;
+    text-align: center;
+    padding: 5px;
+}
+
+#t01 tr:nth-child(odd) {
+    width: 100%;
+    background-color: #f7d3d6;
+}
+
+#t01 tr:nth-child(even) {
+    width: 100%;
+    background-color: #dbf0fe;
+} 
+ @media only screen and (orientation:portrait) {
+        * {
+            letter-spacing: 1px;
+        }
+
+    }
